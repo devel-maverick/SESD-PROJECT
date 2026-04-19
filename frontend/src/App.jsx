@@ -38,7 +38,7 @@ export default function App() {
             </Routes>
           </main>
           <footer className="bg-white border-t border-gray-100 py-4 text-center text-sm text-gray-400">
-            © {new Date().getFullYear()} Dukaan — React + Node.js + PostgreSQL
+            © {new Date().getFullYear()} Dukaan - built with ❤️ by Maverick
           </footer>
         </div>
       </BrowserRouter>
