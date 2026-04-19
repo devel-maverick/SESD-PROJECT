@@ -69,12 +69,6 @@ export default function Login() {
             New here?{' '}
             <Link to="/register" className="text-orange-500 font-semibold hover:underline">Create account</Link>
           </p>
-
-          <div className="mt-5 p-3 bg-orange-50 rounded-lg border border-orange-100 text-xs text-orange-700 space-y-0.5">
-            <p className="font-medium mb-1">Demo accounts</p>
-            <p>Admin: admin@quickcart.com / admin123</p>
-            <p>User: user@quickcart.com / user1234</p>
-          </div>
         </div>
       </div>
     </div>
