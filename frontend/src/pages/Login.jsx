@@ -31,7 +31,7 @@ export default function Login() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="text-5xl mb-3">🛒</div>
-          <h1 className="text-3xl font-bold text-gray-900">QuickCart</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Dukaan</h1>
           <p className="text-gray-500 mt-1">Sign in to continue shopping</p>
         </div>
 

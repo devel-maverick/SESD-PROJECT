@@ -43,7 +43,7 @@ export default function Register() {
         <div className="text-center mb-8">
           <div className="text-5xl mb-3">🛒</div>
           <h1 className="text-3xl font-bold text-gray-900">Create Account</h1>
-          <p className="text-gray-500 mt-1">Join QuickCart today</p>
+          <p className="text-gray-500 mt-1">Join Dukaan today</p>
         </div>
 
         <div className="card p-8">
