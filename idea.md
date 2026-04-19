@@ -2,7 +2,7 @@
 
 ## What is Dukaan?
 
-Dukaan is an online shopping platform where people can browse products across different categories, add them to a cart, and complete purchases using Razorpay. Think of it as a simplified Amazon or Flipkart built as a learning project.
+Dukaan is an online shopping platform where people can browse products across different categories, add them to a cart, and place orders directly. Think of it as a simplified Amazon or Flipkart built as a learning project.
 
 ## System Architecture
 
@@ -10,7 +10,7 @@ Dukaan is an online shopping platform where people can browse products across di
 
 ## Problem Being Solved
 
-Most e-commerce demos are either too simple with no real functionality or too complex to understand. Dukaan sits in the middle — fully working from login to payment, with clean and readable code.
+Most e-commerce demos are either too simple with no real functionality or too complex to understand. Dukaan sits in the middle — fully working from login to order placement, with clean and readable code.
 
 ## Who Uses It
 
@@ -26,7 +26,7 @@ Most e-commerce demos are either too simple with no real functionality or too co
 - Search by product name
 - View product detail page with a real image gallery
 - Add to cart, update quantities, remove items
-- Pay via Razorpay
+- Place an order directly with one click
 - View full order history
 
 **For Admins**
@@ -43,5 +43,9 @@ Most e-commerce demos are either too simple with no real functionality or too co
 | Database | PostgreSQL on Supabase |
 | ORM | Prisma |
 | Auth | JSON Web Tokens |
-| Payments | Razorpay |
+| Deployment | Render |
 | Product Data | DummyJSON API for seeding |
+
+## How Ordering Works
+
+When a user clicks Place Order, the backend fetches their cart items, creates an order with status confirmed, clears the cart, and returns the confirmation. Everything happens in one step with no external payment service needed.
